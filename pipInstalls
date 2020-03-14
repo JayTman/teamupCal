@@ -1,0 +1,6 @@
+pip install --upgrade pip
+pip install datetime
+pip install requests
+pip install nested_lookup
+pip install dateutils
+pip install icalendar

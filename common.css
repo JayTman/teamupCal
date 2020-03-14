@@ -1,0 +1,28 @@
+  
+
+div {
+	display: flex;
+	flex-direction: row;
+}
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-image: linear-gradient(-95deg, #616161 0%, #96B7C4 100%);
+}
+
+
+
+button   {
+  background-color: #1f618d;
+  background-color: #5B829C;
+  cursor: pointer; /* Pointer/hand icon */
+  padding: 5px 10px;
+  color: #c6d42f;
+}
+
+
+/* Add a background color on hover */
+button:hover {
+  background-color: #2e86c1;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content-width=device-width, initial-scale=1>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  </head>
+body {
+    width 100%;
+        background-image: linear-gradient(-95deg, #616161 10%, #96B7C4 100%);
+       }
+
+    .box {
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    margin: 10px;
+    }
+
+    .box:hover {
+    box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+
+	}
+
+
+    .box1 {
+        justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+       }
+
+    .card  {
+	margin: 28px;
+	width: 333px;
+	max-width:100%
+        box-shadow: 90 94px 98px 90 rgba(0,0,127,6);
+
+    background: #b3b3b3;
+    transition: 0.3s;
+    }
+
+    .btn-group {
+  display: flex;
+  flex-wrap: wrap;
+    }
+
+    #head {
+  display: flex;
+  flex-wrap: wrap;
+    }
+
+.card:hover {
+    background: #fafafa;
+}
+.confirmCard {
+    background: #b3ff99;
+}
+.confirmCard:hover {
+    background: #33f006;
+}
+.chgCard {
+    background: #ffffcc;
+}
+.chgCard:hover {
+    background: #ffff99;
+}
+.reminderCard {
+    width:500px;
+    background: #99ff66;
+}
+.reminderCard:hover {
+    background: #33DD00;
+
+}
+
+.button {
+    border:        1px solid #93c47d;
+    border-radius: 15px;
+    box-shadow:    0 1px #444444;
+    padding:       4px 5px;
+    color:         #ffffff;
+    font:          normal bold 20px/1 "Calibri", sans-serif;
+    text-shadow:   1px 1px #000000;
+    display:       inline-block;
+    margin: 5px;
+    }
+
+.confirmButton {
+    background:    #8cff00;
+    background:    linear-gradient(#83c47d,#38761d);
+    border:        3px solid #38761d;
+    }
+
+.confirmLabel {
+    font:          normal bold 20px/1 "Calibri", sans-serif;
+    padding:       4px 30px;
+    color:         #ffffff;
+    text-shadow:   1px 1px #000000;
+    display:       inline-block;
+    text-decoration: none;
+    margin: 5px;
+    background:    #8cff00;
+    background:    linear-gradient(#83c47d,#38761d);
+    border:        3px solid #38761d;
+    }
+
+.chgPendingButton {
+    background:    #ff0000;
+    #background:    linear-gradient(#ffffee,#ffff33);
+    border:        1px solid #ffff77;
+    margin-left:   55px;
+    color: lightcyan;
+    }
+
+.changeButton {
+    background:    #ff0000;
+    background:    linear-gradient(#ff0000, #660000);
+    border:        3px solid #990000;
+    margin-left:   115px;
+    }
+.button:hover {
+    text-decoration: none;
+}
+</style>
